@@ -1,5 +1,8 @@
 <template>
-  <router-view />
+  <div>
+    <h1>前端--环境变量：{{ import.meta.env.VITE_APP_TITLE }}</h1>
+    <router-view />
+  </div>
 </template>
 
 <script setup>
