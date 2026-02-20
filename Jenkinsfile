@@ -12,6 +12,7 @@ pipeline {
     environment {
         GIT_REPO_URL  = 'https://github.com/wenlong201807/ruoyi-fastapi-frontend.git'
         DEPLOY_DIR    = "/var/jenkins_home/nginx_html/ruoyi-${DEPLOY_ENV}"
+        NODE_OPTIONS  = '--max-old-space-size=4096'
     }
 
     stages {
