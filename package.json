@@ -7,9 +7,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build:prod": "vite build",
+    "build": "vite build",
     "build:docker": "vite build --mode docker",
-    "build:dev": "vite build --mode dev",
+    "build:dev": "vite build --mode development",
     "build:staging": "vite build --mode staging",
     "build:production": "vite build --mode production",
     "preview": "vite preview"
