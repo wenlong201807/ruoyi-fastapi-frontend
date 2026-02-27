@@ -52,6 +52,9 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "5.2.4",
+    "@vue/test-utils": "^2.4.6",
+    "happy-dom": "^20.7.0",
+    "jsdom": "^28.1.0",
     "less": "^4.2.0",
     "sass-embedded": "1.97.2",
     "unplugin-auto-import": "0.18.6",
@@ -59,7 +62,8 @@
     "vite": "6.4.1",
     "vite-plugin-compression": "0.5.1",
     "vite-plugin-monaco-editor-esm": "2.0.2",
-    "vite-plugin-svg-icons": "2.0.1"
+    "vite-plugin-svg-icons": "2.0.1",
+    "vitest": "^4.0.18"
   },
   "overrides": {
     "quill": "2.0.2"
